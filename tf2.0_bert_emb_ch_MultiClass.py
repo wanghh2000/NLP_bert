@@ -67,7 +67,8 @@ if __name__ == '__main__':
 	model_path = "bert-base-chinese" #模型路径，建议预先下载(https://huggingface.co/bert-base-chinese#)
 
 	max_length = 32
-	batch_size = 128
+	#batch_size = 128
+	batch_size = 16
 	learning_rate = 2e-5
 	number_of_epochs = 8
 	num_classes = 10 # 类别数
